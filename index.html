@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>日本空手道忍仁会 - 心技体を鍛える</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="slider.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -22,6 +23,11 @@
 
     <!-- Hero Section -->
     <section class="hero">
+        <div class="hero-slider">
+            <div class="hero-slide active" style="background-image: url('4A49BF26-34F9-41EB-BF20-26355509E9FE_1_105_c.jpeg');"></div>
+            <div class="hero-slide" style="background-image: url('861747F9-3E04-4CC3-BAFB-CC08107A8641_1_105_c.jpeg');"></div>
+            <div class="hero-slide" style="background-image: url('A015ED01-F7DF-45A7-8C25-382AF5E0ACA7_1_105_c.jpeg');"></div>
+        </div>
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <div class="hero-badge">NIPPON KARATEDO SHIJINKAI</div>
@@ -35,6 +41,13 @@
                 <a href="#contact" class="btn btn-primary">無料体験予約</a>
                 <a href="#classes" class="btn btn-secondary">クラス案内を見る</a>
             </div>
+        </div>
+        <button class="slider-btn slider-prev">‹</button>
+        <button class="slider-btn slider-next">›</button>
+        <div class="slider-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
         </div>
         <div class="hero-scroll-indicator">
             <span>SCROLL</span>
