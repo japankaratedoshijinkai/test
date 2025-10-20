@@ -546,6 +546,17 @@ body {
     margin-bottom: 1rem;
 }
 
+.instructor-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1.5rem;
+    display: block;
+    border: 4px solid #e74c3c;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
 .instructor-card h3 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
