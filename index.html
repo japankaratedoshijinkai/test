@@ -166,5 +166,16 @@
             <p>&copy; 2024 日本空手道忍仁会. All rights reserved.</p>
         </div>
     </footer>
+    <script>
+        // ページ読み込み時に常にトップにスクロール
+        window.addEventListener('load', function() {
+            window.scrollTo(0, 0);
+        });
+
+        // ページ遷移前にスクロール位置をリセット
+        window.addEventListener('beforeunload', function() {
+            window.scrollTo(0, 0);
+        });
+    </script>
 </body>
 </html>
