@@ -64,7 +64,7 @@ body {
 /* Hero Section */
 .hero {
     position: relative;
-    background: #0a0a0a;
+    background: #0a0a0a url('4A49BF26-34F9-41EB-BF20-26355509E9FE_1_105_c.jpeg') center center / cover no-repeat;
     color: #fff;
     padding: 180px 20px 120px;
     text-align: center;
@@ -83,10 +83,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background:
-        radial-gradient(circle at 20% 50%, rgba(231, 76, 60, 0.08) 0%, transparent 50%),
-        radial-gradient(circle at 80% 50%, rgba(231, 76, 60, 0.05) 0%, transparent 50%),
-        linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%);
+    background: rgba(10, 10, 10, 0.6);
     animation: gradientShift 15s ease infinite;
 }
 
