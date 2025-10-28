@@ -213,7 +213,7 @@ body {
 
 .slider-dots {
     position: absolute;
-    bottom: 80px;
+    bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -733,7 +733,7 @@ body {
     }
 
     .slider-dots {
-        bottom: 60px;
+        bottom: 25px;
     }
 
     .about-content,
@@ -817,7 +817,7 @@ body {
     }
 
     .slider-dots {
-        bottom: 50px;
+        bottom: 20px;
     }
 
     .dot {
